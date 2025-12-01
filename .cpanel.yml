@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1731269/public_html/ojt.sumberdaya.id
+    - /bin/cp -R * $DEPLOYPATH
